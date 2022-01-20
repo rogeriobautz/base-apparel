@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./images/logo.svg" alt="base apparel's logo" class="logo" />
+      <img
+        src="./images/hero-mobile.jpg"
+        alt="young woman in front of a plant lokin at the camera"
+        class="hero-mobile"
+      />
+      <img
+        src="./images/hero-desktop.jpg"
+        alt="young woman in front of a plant lokin at the camera"
+        class="hero-desktop"
+      />
+      <main>
+        <h1 class="title"><span>We're</span> coming soon</h1>
+        <h2 class="subtitle">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </h2>
+        <form>
+          <input
+            type="email"
+            name="email"
+            id="email-input"
+            placeholder="Email Address"
+          />
+          <a href="https://google.com" target="_blank"
+            ><img
+              src="./images/icon-arrow.svg"
+              type="submit"
+              id="submit-btn"
+              alt="submit button"
+          /></a>
+          <label for="email-input" id="email-error"
+            >Please Provide A Valid Email</label
+          >
+          <img class="icon-error" src="./images/icon-error.svg" alt="error" />
+        </form>
+      </main>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
